@@ -1,0 +1,233 @@
+﻿body {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:none;
+}
+.content {
+    height: 2730px;
+    width: 1200px;
+    /* background-color: lightblue; */
+    margin-top: 20px;
+}
+
+.nameTag {
+    height: 50px;
+    width: 1200px;
+    /* background-color: lightcoral; */
+    text-align: center;
+    border-bottom: 1px dashed;
+}
+
+    .nameTag h1 {
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+.Product {
+    width: 1200px;
+    height: 1000px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+}
+
+.infoP {
+    width: 690px;
+    height: 1000px;
+    /* background-color: lightgoldenrodyellow; */
+    margin-right: 20px;
+}
+
+.specP {
+    width: 490px;
+    height: 1000px;
+    /* background-color: lightgreen; */
+}
+
+    .specP h3 {
+        font-size: 14px;
+        margin: 10px 0px;
+        padding: 0px;
+    }
+
+.price {
+    color: red;
+    font-size: 20px;
+}
+
+.KhuyenMai {
+    width: 460px;
+    height: 280px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.kmTop {
+    width: 440px;
+    height: 60px;
+    background-color: #f6f6f6;
+    padding: 10px;
+    border: 1px solid;
+}
+
+    .kmTop span {
+        font-size: 14px;
+    }
+
+    .kmTop p {
+        font-size: 12px;
+    }
+
+.kmBot {
+    width: 440px;
+    height: 220px;
+    /* background-color: limegreen; */
+    padding: 10px;
+    border: 1px solid;
+}
+
+    .kmBot p {
+        font-size: 14px;
+    }
+
+input {
+    margin-left: 15px;
+    border: 0px;
+    margin-bottom: 5px;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+}
+
+    #button input {
+        padding: 0px;
+        background-color: #2e80ed;
+        color: white;
+        border: 0px;
+    }
+
+input:hover {
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 17px;
+    text-align: center;
+}
+
+.thongSo {
+    width: 460px;
+    height: 365px;
+    /* background-color: lightsalmon; */
+    margin-left: 15px;
+}
+
+    .thongSo ul {
+        margin: 0px;
+        padding: 10px;
+        list-style-type: none;
+    }
+
+    .thongSo li {
+        /* margin-bottom: 10px; */
+    }
+
+.ChiTiet {
+    display: flex;
+    flex-direction: row;
+}
+
+.gray {
+    background-color: #f5f5f5;
+}
+
+.ChiTiet p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.left {
+    /* background-color: red; */
+    width: 140px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.right {
+    /* background-color: aqua; */
+    width: 350px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.imgP {
+    width: 690px;
+    height: 400px;
+    /* background-color: lightcoral; */
+    margin-top: 10px;
+}
+
+    .imgP img {
+        width: 100%;
+    }
+
+.diKem {
+    width: 690px;
+    height: 170px;
+    /* background-color: aquamarine; */
+}
+
+    .diKem img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .diKem ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+    .diKem li {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .diKem li div {
+            display: flex;
+            flex-direction: row;
+        }
+
+    .diKem p {
+        font-size: 14px;
+        width: 300px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+.infoP h3 {
+    font-size: 20px;
+    margin: 25px 0px 15px;
+}
+
+.infoP p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#pic {
+    width: 660px;
+    height: 368px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}

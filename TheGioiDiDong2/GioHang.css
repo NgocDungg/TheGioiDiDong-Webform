@@ -1,0 +1,100 @@
+﻿.contentt {
+    width: 600px;
+    height: auto;
+    min-height:110px;
+     background-color: white; 
+    margin-top: 20px;
+    border-radius:10px;
+}
+a{
+    text-decoration:none;
+}
+.contai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detaiBuy {
+    height: 130px;
+    width: 110px;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: row;
+}
+.DBleft {
+    width: 450px;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+}
+
+.DBright {
+    width: 150px;
+    height: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    
+}
+.DatHang {
+    height: 150px;
+    width: 100%;
+    /* background-color: lightcoral; */
+
+}
+
+.imgPR {
+    width: 75px;
+    height: 75px;
+}
+
+.DBleft img {
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.TenSP{
+    margin-top: 10px;
+    margin-left: 40px;
+    width:400px;
+}
+
+
+
+.Price {
+    font-size: 14px;
+    color: red;
+    margin-top: 20px;
+}
+
+.DBright input {
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+
+.finalPrice {
+    margin-left: 420px;
+    font-size: 14px;
+    color: red;
+}
+
+.Pfinal {
+    height: 20px;
+    width: 100%;
+    /* background-color: gray; */
+    border-bottom: 1px solid black;
+    flex-direction: row;
+    display: flex;
+}
+
+.button {
+    width: 540px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+}

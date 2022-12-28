@@ -1,0 +1,723 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header {
+    height: 22f20px;
+    width: 2000px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+}
+
+    .Header a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    .Header a {
+        color: black;
+    }
+/* top header */
+.TopHeader {
+    flex: 1;
+    background-color: #ffd42d;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImage img {
+    width: 228px;
+    height: 40px;
+    /* margin-left: 150px; */
+    padding-top: 5px;
+}
+
+.DiaChi {
+    width: 137px;
+    height: 38px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+}
+
+.inputSearch {
+    width: 301px;
+    height: 40px;
+    background-color: lightgreen;
+    margin-left: 15px;
+}
+
+.LichSuDon {
+    width: 96px;
+    height: 40px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+}
+
+.GioHang {
+    width: 112px;
+    height: 40px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+}
+
+    .GioHang img {
+        width: 25px;
+        height: 24px;
+    }
+
+.otherChoice {
+    width: 250px;
+    height: 36px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.TopHeader div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.otherChoice div {
+    font-size: 14px;
+    flex: 1;
+}
+
+/* bot header */
+.BotHeader {
+    flex: 1;
+    background-color: #ffd42d;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .BotHeader ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.eventList ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.eventList li {
+    background-color: #ffd42d;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.BotHeader li {
+    background-color: #ffd42d;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.BotHeader ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* content */
+.bigBanner {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    /* background-color: lightgreen; */
+    height: 4400px;
+}
+
+.eventList {
+    display: flex;
+    flex-direction: row;
+}
+
+    .eventList li {
+        width: 285px;
+        height: 70px;
+        padding: 15px 0px;
+        margin-right: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eventList img {
+        width: 64px;
+        height: 70px;
+    }
+
+.QuangCao {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+    .Content a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.luckyWheel {
+    width: 100%;
+    height: 600px;
+    background-color: #ffdb66;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .luckyWheel a:hover {
+        text-decoration: none;
+    }
+
+    .luckyWheel a {
+        color: black;
+    }
+
+.lwTop {
+    width: 100%;
+    height: 130px;
+    /* background-color: red; */
+}
+
+    .lwTop img {
+        width: 100%;
+    }
+
+.lwBot {
+    width: 100%;
+    height: 540px;
+    /* background-color: blue; */
+}
+
+.product {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: 220px;
+    height: 390px;
+    background-color: white;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.product h4 {
+    font-size: 14px;
+    font-style: unset;
+    margin-left: 40px;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: red;
+    margin-left: 40px;
+}
+/* .DetailItem h4 {
+  font-size: 14px;
+  font-style: unset;
+  margin: 0px 0px 8px;
+  margin-left: 10px;
+}
+.product h3 {
+  font-size: 18px;
+  color: red;
+  margin-left: 10px;
+} */
+/* slider */
+.sliderF {
+    height: 180px;
+    /* background-color: aqua; */
+    margin: 10px 0px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 180;
+}
+
+.item1 {
+    width: 100%;
+    /* background-color: blue; */
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+
+    .item1 img {
+        border-radius: 15px;
+    }
+
+.left {
+    width: 580px;
+    /* background-color: lightgreen; */
+    height: 100%;
+    margin: 0px 10px;
+}
+
+.right {
+    width: 580px;
+    /* background-color: lightslategrey; */
+    height: 100%;
+    margin: 0px 10px;
+}
+/* vivo week */
+.vivoWeek {
+    width: 1200px;
+    height: 770px;
+    background-color: #425FFB;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+    .vivoWeek a {
+        color: black;
+    }
+
+    .vivoWeek h2 {
+        text-align: center;
+        padding: 26px 0px;
+        font-size: 45px;
+        color: white;
+    }
+
+.bannerSlide {
+    width: 1200px;
+    height: 200px;
+    /* background-color: aqua; */
+}
+
+.vivoSlide {
+    width: 1200px;
+    height: 455px;
+    /* background-color: limegreen; */
+}
+
+.productVivo {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemVivo {
+    width: 380px;
+    height: 200px;
+    background-color: red;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+    .itemVivo img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+/* XuHuong */
+.XuHuong {
+    width: 100%;
+    height: 332px;
+    background-color: #fdc3ac;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .XuHuong a {
+        color: black;
+    }
+
+.XHtop {
+    height: 66px;
+    width: 100%;
+    /* background-color: limegreen; */
+    display: block;
+    padding-top: 15px;
+}
+
+    .XHtop span {
+        font-size: 22px;
+        padding-left: 30px;
+    }
+
+.XHbot {
+    height: 266px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+    .XHbot .item {
+        width: 280px;
+        height: 236px;
+        background-color: white;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .XHbot img {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .XHbot span {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+.NoiBat {
+    width: 100%;
+    height: 354px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+    .NoiBat span {
+        font-size: 22px;
+        padding-left: 30px;
+    }
+
+.itemNoiBat {
+    height: 278px;
+    margin: 10px 40px 30px;
+    /* background-color: wheat; */
+    padding-top: 10px;
+}
+
+.TopNB {
+    width: 1120px;
+    height: 124px;
+    background-color: lightskyblue;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+    .TopNB div {
+        width: 112px;
+        height: 100%;
+        background-color: white;
+    }
+
+    .TopNB img {
+        width: 90px;
+        height: 90px;
+        margin-left: 15px;
+    }
+
+    .TopNB span {
+        font-size: 14px;
+    }
+
+.BotNB {
+    width: 1120px;
+    height: 124px;
+    background-color: lightcoral;
+}
+/* giam gia online */
+.GiamGiaOnline {
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+    .GiamGiaOnline span {
+        font-size: 22px;
+    }
+
+.giamgiaText {
+    width: 100%;
+    height: 30px;
+    /* background-color: rebeccapurple; */
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.gridGiamGia {
+    display: flex;
+    flex-direction: row;
+}
+
+    .gridGiamGia img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.giamgiaOnline {
+    width: 100%;
+    height: 200px;
+    /* background-color: lightblue; */
+}
+
+.bannerGiamGia {
+    width: 380px;
+    height: 200px;
+    /* background-color: lightsalmon; */
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+/* DichVuTienIch */
+.DVTienIch {
+    width: 100%;
+    height: 242px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+    .DVTienIch h3 {
+        font-size: 22px;
+        padding: 15px 30px;
+    }
+
+.DichVu {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+    .DichVu div {
+        width: 280px;
+        height: 146px;
+        /* background-color: violet; */
+        margin: 0px 10px;
+        border-radius: 10px;
+        padding-top: 5px;
+    }
+
+    .DichVu img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .DichVu span {
+        font-size: 18px;
+    }
+
+    .DichVu p {
+        margin-left: 45px;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+/* recommnend */
+.recommend {
+    width: 1200px;
+    height: 810px;
+    margin-top: 30px;
+    /* background-color: lightcoral; */
+    padding-top: 10px;
+    display: block;
+}
+
+    .recommend a {
+        color: black;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .recommend span {
+        font-size: 22px;
+        padding-bottom: 10px;
+        margin-left: 30px;
+    }
+
+.product-recommend {
+    width: 1200px;
+    height: 1220px;
+    /* background-color: lightblue; */
+}
+
+.item-recommend {
+    width: 228px;
+    height: 389px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+    .item-recommend img {
+        width: 207px;
+        height: 207px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .item-recommend h4 {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
+    .item-recommend h3 {
+        font-size: 18px;
+        color: red;
+        margin-left: 30px;
+    }
+
+.grid-recommend {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 400px;
+}
+/* footer */
+.Footer {
+    height: 255px;
+    width: auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.f-content {
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.col1 {
+    width: 283px;
+    height: 100%;
+    /* background-color: #425FFB; */
+}
+
+    .col1 ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .col1 li {
+        margin: 0px 0px 10px;
+        font-size: 14px;
+    }
+
+.col2 {
+    width: 350px;
+    height: 100%;
+    /* background-color:lightgreen; */
+}
+
+.contact {
+    width: 348px;
+    height: 18px;
+    margin: 0px 0px 20px;
+    /* background-color: aqua; */
+}
+
+    .contact img {
+        width: 18px;
+        height: 18px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .contact span {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+.certificate {
+    width: 350px;
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+    .certificate img {
+        height: 25px;
+        margin-left: 10px;
+    }
+
+.website {
+    width: 100%;
+    height: 110px;
+}
+
+    .website img {
+        width: 80px;
+        height: 24px;
+        margin-left: 10px;
+    }
